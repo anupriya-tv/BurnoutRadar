@@ -43,4 +43,4 @@ class Employee(db.Model):
             'risk_level': self.risk_level,
             'ai_recommendation': self.ai_recommendation,
             'created_at': self.created_at.isoformat(),
-        }
+        } 
